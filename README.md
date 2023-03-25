@@ -26,7 +26,7 @@ No changes have been made to dedicated room yet.
 
 ### Input Common
 ![25%](https://progress-bar.dev/25?width=110)  
-Input will need to be rewritten to support iOS.
+Input Common will need to be rewritten to support iOS.
 - Removed `input_common`
 - Controllers should still be supported via SDL2
 
@@ -36,7 +36,8 @@ No changes have been made to network yet.
 
 ### Video Core
 ![25%](https://progress-bar.dev/25?width=110)  
-Video Core currently crashes on `vkCreateSemaphore` and will require more work.
+~~Video Core currently crashes on `vkCreateSemaphore` and will require more work.~~
+Video Core now crashes at rendering and is likely due to `window_info.render_surface` being null.
 
 ### Web Service
 ![0%](https://progress-bar.dev/0?width=110)  
