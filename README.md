@@ -36,7 +36,7 @@ No changes have been made to network yet.
 
 ### Video Core
 ![25%](https://progress-bar.dev/25?width=110)  
-~~Video Core currently crashes on `vkCreateSemaphore` and will require more work.~~
+~~Video Core currently crashes on `vkCreateSemaphore` and will require more work.~~  
 Video Core now crashes at rendering and is likely due to `window_info.render_surface` being null.
 
 ### Web Service
