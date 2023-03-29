@@ -11,8 +11,8 @@ Audio support is complete.
 - Updated SoundTouch
 
 ### Common
-![0%](https://progress-bar.dev/0?width=110)  
-No changes have been made to common yet.
+![50%](https://progress-bar.dev/50?width=110)  
+Common's `file_util.h/.cpp` will need to be rewritten to support iOS.
 
 ### Core
 ![50%](https://progress-bar.dev/50?width=110)  
@@ -35,9 +35,10 @@ Input Common will need to be rewritten to support iOS.
 No changes have been made to network yet.
 
 ### Video Core
-![25%](https://progress-bar.dev/25?width=110)  
+![90%](https://progress-bar.dev/90?width=110)  
 ~~Video Core currently crashes on `vkCreateSemaphore` and will require more work.~~  
-Video Core now crashes at rendering and is likely due to `window_info.render_surface` being null.
+~~Video Core now crashes at rendering and is likely due to `window_info.render_surface` being null.~~  
+Video core no longer crashes but will require testing after the filesystem rewrite.
 
 ### Web Service
 ![0%](https://progress-bar.dev/0?width=110)  
